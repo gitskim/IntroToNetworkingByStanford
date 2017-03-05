@@ -2,6 +2,8 @@
 
 ![detail](/img/layer-detail.png?raw=true)
 
+![syn-ack](/img/syn-ack.png?raw=true)
+
 1. The IP Service Model
 * Tries to prevent packets looping forever by having datagram's TTL (time to live). It ensures datagram is alive only during TTL, if not, it assumes datagrams stuck in a loop. Every router is required to decrement the TTL value. If the TTL is 0, the router will drop it. 
 * It fragments packets if they are too long. 
