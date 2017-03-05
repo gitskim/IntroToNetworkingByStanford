@@ -8,3 +8,6 @@
 * It uses a header checksum to reduce chances of delivering datagram to wrong destinatino. 
 * It allows for new versions of IP. (IPv4 uses 32 bit addresses. IPv6 uses 128 bit addresses.)
 
+2. traceroute -w 1 www.cs.brown.edu tells you the packet routes to get to www.cs.brown.edu
+
+3. Packet switching: Independently for each arriving packet, pick its outgoing link. If the link is free, sned it. Else hold the packet for later. 
