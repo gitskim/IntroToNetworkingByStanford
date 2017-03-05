@@ -1,5 +1,8 @@
 ![overview](img/4-layer-overview.png?raw=true)
+Format: ![Alt Text](url)
+
 ![detail](img/layer-detail.png?raw=true)
+Format: ![Alt Text](url)
 
 1. The IP Service Model
 * Tries to prevent packets looping forever by having datagram's TTL (time to live). It ensures datagram is alive only during TTL, if not, it assumes datagrams stuck in a loop. Every router is required to decrement the TTL value. If the TTL is 0, the router will drop it. 
